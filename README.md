@@ -34,17 +34,20 @@ Each song page on the site shows three things:
  
 ## The Songs
  
-| Song | Source Poem | Poet | Year |
-|---|---|---|---|
-| Marcus Has My Pen | The Destruction of Sennacherib | Lord Byron | 1815 |
-| Three Seconds | The Rime of the Ancient Mariner | Samuel Taylor Coleridge | 1798 |
-| And God Said Nothing | Porphyria's Lover | Robert Browning | 1836 |
-| Nothing Would Come Out | The Love Song of J. Alfred Prufrock | T.S. Eliot | 1915 |
-| The Weight of Her Hand | Break, Break, Break | Alfred, Lord Tennyson | 1842 |
-| The Old Lie | Dulce et Decorum Est | Wilfred Owen | 1920 |
-| The Floor Gave Out | I Felt a Funeral, in my Brain | Emily Dickinson | 1861 |
-| Same As Everyone | A Litany in Time of Plague | Thomas Nashe | 1592 |
-| Jesús | Gunga Din | Rudyard Kipling | 1890 |
+| # | Song | Source Poem | Poet | Year |
+|---|---|---|---|---|
+| 1 | The Old Lie | Dulce et Decorum Est | Wilfred Owen | 1920 |
+| 2 | The Floor Gave Out | I Felt a Funeral, in my Brain | Emily Dickinson | 1861 |
+| 3 | Same As Everyone | A Litany in Time of Plague | Thomas Nashe | 1592 |
+| 4 | The Weight of Her Hand | Break, Break, Break | Alfred, Lord Tennyson | 1842 |
+| 5 | And God Said Nothing | Porphyria's Lover | Robert Browning | 1836 |
+| 6 | Nothing Would Come Out | The Love Song of J. Alfred Prufrock | T.S. Eliot | 1915 |
+| 7 | Three Seconds | The Rime of the Ancient Mariner | Samuel Taylor Coleridge | 1798 |
+| 8 | Marcus Has My Pen | The Destruction of Sennacherib | Lord Byron | 1815 |
+| 9 | Jesús | Gunga Din | Rudyard Kipling | 1890 |
+| 10 | Followed Every Rule | The Mask of Anarchy | Percy Bysshe Shelley | 1819 |
+| 11 | None of It Was Real | The Waste Land | T.S. Eliot | 1922 |
+| 12 | There Was Never Anyone There | Hap | Thomas Hardy | 1866 |
  
 ## How the Songs Are Made
  
@@ -67,17 +70,21 @@ All files live in the root directory. There are no subfolders.
 | File | Purpose |
 |---|---|
 | `index.html` | Homepage — intro text and card grid linking to all song pages |
+| `prompts.html` | Suno prompts page — base templates, key techniques, and full inputs for every song |
 | `styles.css` | Shared stylesheet used by every page |
 | `README.md` | This file |
-| `marcus-has-my-pen.html` | Song page — Byron's "The Destruction of Sennacherib" |
-| `three-seconds.html` | Song page — Coleridge's "The Rime of the Ancient Mariner" |
-| `and-god-said-nothing.html` | Song page — Browning's "Porphyria's Lover" |
-| `nothing-would-come-out.html` | Song page — Eliot's "The Love Song of J. Alfred Prufrock" |
-| `the-weight-of-her-hand.html` | Song page — Tennyson's "Break, Break, Break" |
 | `the-old-lie.html` | Song page — Owen's "Dulce et Decorum Est" |
 | `the-floor-gave-out.html` | Song page — Dickinson's "I Felt a Funeral, in my Brain" |
 | `same-as-everyone.html` | Song page — Nashe's "A Litany in Time of Plague" |
+| `the-weight-of-her-hand.html` | Song page — Tennyson's "Break, Break, Break" |
+| `and-god-said-nothing.html` | Song page — Browning's "Porphyria's Lover" |
+| `nothing-would-come-out.html` | Song page — Eliot's "The Love Song of J. Alfred Prufrock" |
+| `three-seconds.html` | Song page — Coleridge's "The Rime of the Ancient Mariner" |
+| `marcus-has-my-pen.html` | Song page — Byron's "The Destruction of Sennacherib" |
 | `jesus.html` | Song page — Kipling's "Gunga Din" |
+| `followed-every-rule.html` | Song page — Shelley's "The Mask of Anarchy" |
+| `none-of-it-was-real.html` | Song page — Eliot's "The Waste Land" |
+| `there-was-never-anyone-there.html` | Song page — Hardy's "Hap" |
  
 ## Technical Details
  
