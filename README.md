@@ -20,11 +20,7 @@ And the poems finally made sense. Not because the words changed. Because the dis
  
 Every song in this series starts with a public domain poem and turns it into a post-hardcore track. The music is fast, heavy, and loud — thick downtuned guitars, double kick drums, screamed and raw vocals at 180 BPM. The lyrics are modern, concrete, and specific.
  
-The series has two formats:
- 
-**Format 1 — Direct poem text as lyrics.** The original poem is split across two verses and sung/screamed over post-hardcore instrumentation. The poem's own words become the lyrics. These songs are not on this website because there's no structural mapping to show — the poem and the song use the same text.
- 
-**Format 2 — Modernized adaptation with original lyrics.** The original poem provides the emotional structure, key images, and thematic arc. The adaptation translates those into modern concrete details with entirely new, original lyrics. These are the songs this website is built around.
+Each song takes a public domain poem and uses it as a blueprint. The original poem provides the emotional structure, key images, and thematic arc. The adaptation translates those into modern concrete details with entirely new, original lyrics. The poem is the skeleton. The song is a new body built on top of it.
  
 ## What This Site Does
  
@@ -38,8 +34,6 @@ Each song page on the site shows three things:
  
 ## The Songs
  
-### Format 2 — Modernized Adaptations (on this site)
- 
 | Song | Source Poem | Poet | Year |
 |---|---|---|---|
 | Marcus Has My Pen | The Destruction of Sennacherib | Lord Byron | 1815 |
@@ -51,18 +45,6 @@ Each song page on the site shows three things:
 | The Floor Gave Out | I Felt a Funeral, in my Brain | Emily Dickinson | 1861 |
 | Same As Everyone | A Litany in Time of Plague | Thomas Nashe | 1592 |
 | Jesús | Gunga Din | Rudyard Kipling | 1890 |
- 
-### Format 1 — Direct Poem Text as Lyrics (not on this site)
- 
-| Source Poem | Poet | Year |
-|---|---|---|
-| Dulce et Decorum Est | Wilfred Owen | 1920 |
-| I Felt a Funeral, in my Brain | Emily Dickinson | 1861 |
-| The Tyger | William Blake | 1794 |
-| The Second Coming | W.B. Yeats | 1919 |
-| Ozymandias | Percy Bysshe Shelley | 1818 |
- 
-Some poems have both a Format 1 and a Format 2 version (Dulce et Decorum Est and I Felt a Funeral, in my Brain each have a direct-text version and a modernized adaptation). The two formats produce completely different songs from the same source material.
  
 ## How the Songs Are Made
  
