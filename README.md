@@ -18,7 +18,7 @@ And the poems finally made sense. Not because the words changed. Because the dis
  
 ## What the Songs Are
  
-Every song in this series starts with a public domain poem and turns it into a post-hardcore track. The music is fast, heavy, and loud — thick downtuned guitars, double kick drums, screamed and raw vocals at 180 BPM. The lyrics are modern, concrete, and specific.
+Every song in this series starts with a public domain poem and turns it into a post-hardcore track. The music is fast, heavy, and loud — thick downtuned guitars, double kick drums, screamed and raw vocals at ~155-180 BPM. The lyrics are modern, concrete, and specific.
  
 Each song takes a public domain poem and uses it as a blueprint. The original poem provides the emotional structure, key images, and thematic arc. The adaptation translates those into modern concrete details with entirely new, original lyrics. The poem is the skeleton. The song is a new body built on top of it.
  
