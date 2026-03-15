@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Preview</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Work Sans', system-ui, sans-serif;
+      background: #222;
+      color: #ccc;
+      padding: 40px 24px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin-bottom: 48px;
+      letter-spacing: 0.04em;
+    }
+
+    .themes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .theme-label {
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+      color: #aaa;
+    }
+
+    .theme-preview {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #444;
+    }
+
+    /* ---- Theme 1: Weathered Parchment ---- */
+    .t1 { background: #f4efe6; color: #2c2418; }
+    .t1 .p-header { border-bottom: 1px solid #d4cabb; padding: 20px 24px; }
+    .t1 .p-header-title { font-family: 'Cormorant', serif; font-size: 0.95rem; font-weight: 600; color: #6b5d4f; }
+    .t1 .p-hero { padding: 32px 24px 28px; border-bottom: 1px solid #d4cabb; }
+    .t1 .p-hero h2 { font-family: 'Cormorant', serif; font-size: 1.8rem; font-weight: 700; line-height: 1.2; margin-bottom: 16px; color: #2c2418; }
+    .t1 .p-hero h2 em { color: #b8860b; font-style: italic; }
+    .t1 .p-hero p { font-family: 'Libre Baskerville', serif; font-size: 0.82rem; color: #6b5d4f; line-height: 1.8; }
+    .t1 .p-grid { padding: 24px; display: grid; gap: 12px; }
+    .t1 .p-card { background: #ede7db; border: 1px solid #d4cabb; border-radius: 6px; padding: 16px; }
+    .t1 .p-card:hover { border-color: #b8860b; }
+    .t1 .p-card-title { font-family: 'Cormorant', serif; font-size: 1.15rem; font-weight: 600; color: #2c2418; margin-bottom: 4px; }
+    .t1 .p-card-source { font-family: 'Work Sans', sans-serif; font-size: 0.65rem; color: #8a7b6b; margin-bottom: 8px; }
+    .t1 .p-card-desc { font-family: 'Libre Baskerville', serif; font-size: 0.75rem; color: #6b5d4f; line-height: 1.6; }
+    .t1 .p-poem { padding: 24px; border-top: 1px solid #d4cabb; }
+    .t1 .p-poem-label { font-family: 'Work Sans', sans-serif; font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: #b8860b; margin-bottom: 12px; }
+    .t1 .p-poem-box { background: #ede7db; border: 1px solid #d4cabb; border-radius: 6px; padding: 16px; }
+    .t1 .p-poem-box p { font-family: 'Libre Baskerville', serif; font-size: 0.78rem; color: #2c2418; line-height: 1.85; white-space: pre-wrap; }
+    .t1 .p-footer { padding: 16px 24px; border-top: 1px solid #d4cabb; }
+    .t1 .p-footer p { font-family: 'Work Sans', sans-serif; font-size: 0.6rem; color: #8a7b6b; text-align: center; }
+
+    /* ---- Theme 2: Concrete & Blood ---- */
+    .t2 { background: #f0efed; color: #1a1a1a; }
+    .t2 .p-header { border-bottom: 1px solid #cccbc8; padding: 20px 24px; }
+    .t2 .p-header-title { font-family: 'Cormorant', serif; font-size: 0.95rem; font-weight: 600; color: #555555; }
+    .t2 .p-hero { padding: 32px 24px 28px; border-bottom: 1px solid #cccbc8; }
+    .t2 .p-hero h2 { font-family: 'Cormorant', serif; font-size: 1.8rem; font-weight: 700; line-height: 1.2; margin-bottom: 16px; color: #1a1a1a; }
+    .t2 .p-hero h2 em { color: #9b1b30; font-style: italic; }
+    .t2 .p-hero p { font-family: 'Libre Baskerville', serif; font-size: 0.82rem; color: #555555; line-height: 1.8; }
+    .t2 .p-grid { padding: 24px; display: grid; gap: 12px; }
+    .t2 .p-card { background: #e6e5e2; border: 1px solid #cccbc8; border-radius: 6px; padding: 16px; }
+    .t2 .p-card:hover { border-color: #9b1b30; }
+    .t2 .p-card-title { font-family: 'Cormorant', serif; font-size: 1.15rem; font-weight: 600; color: #1a1a1a; margin-bottom: 4px; }
+    .t2 .p-card-source { font-family: 'Work Sans', sans-serif; font-size: 0.65rem; color: #777777; margin-bottom: 8px; }
+    .t2 .p-card-desc { font-family: 'Libre Baskerville', serif; font-size: 0.75rem; color: #555555; line-height: 1.6; }
+    .t2 .p-poem { padding: 24px; border-top: 1px solid #cccbc8; }
+    .t2 .p-poem-label { font-family: 'Work Sans', sans-serif; font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: #9b1b30; margin-bottom: 12px; }
+    .t2 .p-poem-box { background: #e6e5e2; border: 1px solid #cccbc8; border-radius: 6px; padding: 16px; }
+    .t2 .p-poem-box p { font-family: 'Libre Baskerville', serif; font-size: 0.78rem; color: #1a1a1a; line-height: 1.85; white-space: pre-wrap; }
+    .t2 .p-footer { padding: 16px 24px; border-top: 1px solid #cccbc8; }
+    .t2 .p-footer p { font-family: 'Work Sans', sans-serif; font-size: 0.6rem; color: #777777; text-align: center; }
+
+    /* ---- Theme 4: Newsprint ---- */
+    .t4 { background: #fafafa; color: #111111; }
+    .t4 .p-header { border-bottom: 1px solid #dddcda; padding: 20px 24px; }
+    .t4 .p-header-title { font-family: 'Cormorant', serif; font-size: 0.95rem; font-weight: 600; color: #4a4a4a; }
+    .t4 .p-hero { padding: 32px 24px 28px; border-bottom: 1px solid #dddcda; }
+    .t4 .p-hero h2 { font-family: 'Cormorant', serif; font-size: 1.8rem; font-weight: 700; line-height: 1.2; margin-bottom: 16px; color: #111111; }
+    .t4 .p-hero h2 em { color: #445566; font-style: italic; }
+    .t4 .p-hero p { font-family: 'Libre Baskerville', serif; font-size: 0.82rem; color: #4a4a4a; line-height: 1.8; }
+    .t4 .p-grid { padding: 24px; display: grid; gap: 12px; }
+    .t4 .p-card { background: #f2f2f0; border: 1px solid #dddcda; border-radius: 6px; padding: 16px; }
+    .t4 .p-card:hover { border-color: #445566; }
+    .t4 .p-card-title { font-family: 'Cormorant', serif; font-size: 1.15rem; font-weight: 600; color: #111111; margin-bottom: 4px; }
+    .t4 .p-card-source { font-family: 'Work Sans', sans-serif; font-size: 0.65rem; color: #777777; margin-bottom: 8px; }
+    .t4 .p-card-desc { font-family: 'Libre Baskerville', serif; font-size: 0.75rem; color: #4a4a4a; line-height: 1.6; }
+    .t4 .p-poem { padding: 24px; border-top: 1px solid #dddcda; }
+    .t4 .p-poem-label { font-family: 'Work Sans', sans-serif; font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: #445566; margin-bottom: 12px; }
+    .t4 .p-poem-box { background: #f2f2f0; border: 1px solid #dddcda; border-radius: 6px; padding: 16px; }
+    .t4 .p-poem-box p { font-family: 'Libre Baskerville', serif; font-size: 0.78rem; color: #111111; line-height: 1.85; white-space: pre-wrap; }
+    .t4 .p-footer { padding: 16px 24px; border-top: 1px solid #dddcda; }
+    .t4 .p-footer p { font-family: 'Work Sans', sans-serif; font-size: 0.6rem; color: #777777; text-align: center; }
+  </style>
+</head>
+<body>
+
+<h1>Theme Comparison</h1>
+
+<div class="themes">
+
+  <!-- Theme 1: Weathered Parchment -->
+  <div>
+    <div class="theme-label">1 &mdash; Weathered Parchment</div>
+    <div class="theme-preview t1">
+      <div class="p-header">
+        <div class="p-header-title">Classics in the Key of Post-Hardcore</div>
+      </div>
+      <div class="p-hero">
+        <h2>I never understood poetry<br>until I <em>heard</em> it.</h2>
+        <p>In high school English, poetry was boring. Stories about people living in the 1700s and 1800s that I had no connection to. Then I started turning these poems into post-hardcore songs with modernized lyrics.</p>
+      </div>
+      <div class="p-grid">
+        <div class="p-card">
+          <div class="p-card-title">The Old Lie</div>
+          <div class="p-card-source">from &ldquo;Dulce et Decorum Est&rdquo; &mdash; Wilfred Owen, 1920</div>
+          <div class="p-card-desc">Owen watched a man drown in poison gas in 1917 and dared anyone to repeat the lie that it is sweet and fitting to die for your country.</div>
+        </div>
+        <div class="p-card">
+          <div class="p-card-title">Marcus Has My Pen</div>
+          <div class="p-card-source">from &ldquo;The Destruction of Sennacherib&rdquo; &mdash; Lord Byron, 1815</div>
+          <div class="p-card-desc">Byron showed an army alive in one stanza and dead in the next, never describing the killing. This song does the same thing with a school shooting.</div>
+        </div>
+      </div>
+      <div class="p-poem">
+        <div class="p-poem-label">Original Poem</div>
+        <div class="p-poem-box">
+          <p>Bent double, like old beggars under sacks,
+Knock-kneed, coughing like hags, we cursed through sludge,
+Till on the haunting flares we turned our backs,
+And towards our distant rest began to trudge.</p>
+        </div>
+      </div>
+      <div class="p-footer">
+        <p>All source poems are in the public domain.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Theme 2: Concrete & Blood -->
+  <div>
+    <div class="theme-label">2 &mdash; Concrete &amp; Blood</div>
+    <div class="theme-preview t2">
+      <div class="p-header">
+        <div class="p-header-title">Classics in the Key of Post-Hardcore</div>
+      </div>
+      <div class="p-hero">
+        <h2>I never understood poetry<br>until I <em>heard</em> it.</h2>
+        <p>In high school English, poetry was boring. Stories about people living in the 1700s and 1800s that I had no connection to. Then I started turning these poems into post-hardcore songs with modernized lyrics.</p>
+      </div>
+      <div class="p-grid">
+        <div class="p-card">
+          <div class="p-card-title">The Old Lie</div>
+          <div class="p-card-source">from &ldquo;Dulce et Decorum Est&rdquo; &mdash; Wilfred Owen, 1920</div>
+          <div class="p-card-desc">Owen watched a man drown in poison gas in 1917 and dared anyone to repeat the lie that it is sweet and fitting to die for your country.</div>
+        </div>
+        <div class="p-card">
+          <div class="p-card-title">Marcus Has My Pen</div>
+          <div class="p-card-source">from &ldquo;The Destruction of Sennacherib&rdquo; &mdash; Lord Byron, 1815</div>
+          <div class="p-card-desc">Byron showed an army alive in one stanza and dead in the next, never describing the killing. This song does the same thing with a school shooting.</div>
+        </div>
+      </div>
+      <div class="p-poem">
+        <div class="p-poem-label">Original Poem</div>
+        <div class="p-poem-box">
+          <p>Bent double, like old beggars under sacks,
+Knock-kneed, coughing like hags, we cursed through sludge,
+Till on the haunting flares we turned our backs,
+And towards our distant rest began to trudge.</p>
+        </div>
+      </div>
+      <div class="p-footer">
+        <p>All source poems are in the public domain.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Theme 4: Newsprint -->
+  <div>
+    <div class="theme-label">4 &mdash; Newsprint</div>
+    <div class="theme-preview t4">
+      <div class="p-header">
+        <div class="p-header-title">Classics in the Key of Post-Hardcore</div>
+      </div>
+      <div class="p-hero">
+        <h2>I never understood poetry<br>until I <em>heard</em> it.</h2>
+        <p>In high school English, poetry was boring. Stories about people living in the 1700s and 1800s that I had no connection to. Then I started turning these poems into post-hardcore songs with modernized lyrics.</p>
+      </div>
+      <div class="p-grid">
+        <div class="p-card">
+          <div class="p-card-title">The Old Lie</div>
+          <div class="p-card-source">from &ldquo;Dulce et Decorum Est&rdquo; &mdash; Wilfred Owen, 1920</div>
+          <div class="p-card-desc">Owen watched a man drown in poison gas in 1917 and dared anyone to repeat the lie that it is sweet and fitting to die for your country.</div>
+        </div>
+        <div class="p-card">
+          <div class="p-card-title">Marcus Has My Pen</div>
+          <div class="p-card-source">from &ldquo;The Destruction of Sennacherib&rdquo; &mdash; Lord Byron, 1815</div>
+          <div class="p-card-desc">Byron showed an army alive in one stanza and dead in the next, never describing the killing. This song does the same thing with a school shooting.</div>
+        </div>
+      </div>
+      <div class="p-poem">
+        <div class="p-poem-label">Original Poem</div>
+        <div class="p-poem-box">
+          <p>Bent double, like old beggars under sacks,
+Knock-kneed, coughing like hags, we cursed through sludge,
+Till on the haunting flares we turned our backs,
+And towards our distant rest began to trudge.</p>
+        </div>
+      </div>
+      <div class="p-footer">
+        <p>All source poems are in the public domain.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
