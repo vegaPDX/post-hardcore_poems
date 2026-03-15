@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suno Prompts &amp; Inputs &mdash; Classics in the Key of Post-Hardcore</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Prompts page additions */
+    .prompt-song {
+      padding: 48px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .prompt-song:last-child {
+      border-bottom: none;
+    }
+    .prompt-song__title {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
+    .prompt-song__source {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+    .prompt-song__links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .prompt-song__link {
+      font-family: var(--font-ui);
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--accent);
+      transition: color 0.2s;
+    }
+    .prompt-song__link:hover {
+      color: var(--accent-hover);
+    }
+    .prompt-field {
+      margin-bottom: 20px;
+    }
+    .prompt-field__label {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-dim);
+      margin-bottom: 8px;
+    }
+    .prompt-field__value {
+      background: var(--bg-inset);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px 20px;
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      line-height: 1.8;
+      color: var(--text-primary);
+      white-space: pre-wrap;
+    }
+    .prompt-field__value code {
+      font-family: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+      font-size: 0.84rem;
+    }
+    .technique-list {
+      list-style: none;
+      padding: 0;
+    }
+    .technique-list li {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .technique-list li:last-child {
+      border-bottom: none;
+    }
+    .technique-list li strong {
+      color: var(--text-primary);
+      font-weight: 700;
+    }
+    .template-box {
+      background: var(--bg-inset);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 6px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+    .template-box__label {
+      font-family: var(--font-ui);
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .template-box__value {
+      font-family: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+      font-size: 0.84rem;
+      line-height: 1.8;
+      color: var(--text-primary);
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <div class="site-header__title">
+          <a href="index.html">Classics in the Key of Post-Hardcore</a>
+        </div>
+        <nav class="site-header__nav">
+          <a href="index.html">&larr; All Songs</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- ======================== INTRO ======================== -->
+  <section class="hero">
+    <div class="container">
+      <div class="song-header__label fade-in">Poetry &times; Post-Hardcore</div>
+      <h1 class="hero__title fade-in fade-in--d1">Suno Prompts &amp; Inputs</h1>
+      <div class="hero__text fade-in fade-in--d2">
+        <p>
+          Every song on this site was generated with <a href="https://suno.com" style="color: var(--accent);">Suno</a> V5 in Custom Mode. This page shows exactly what went into Suno for each song: the Style of Music field, the full Lyrics field (with metatags and arrangement notes), and the Exclude Styles field.
+        </p>
+        <p>
+          These prompts were built through research and iteration. Some worked on the first or second generation. Others took five or six rounds of testing one variable at a time. The techniques below are the result of that process, and they apply to any genre in Suno &mdash; not just post-hardcore.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- ======================== THE BASE TEMPLATE ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section__label">The Foundation</div>
+      <h2 class="section__heading">The Post-Hardcore Base Template</h2>
+      <div class="section__intro">
+        All 11 songs share a common foundation. The base template was developed through 5 iterations of instrumental-only generations until the guitar tone, drum sound, and intensity level were locked in. From there, vocal descriptors and lyrics were added per song.
+      </div>
+      <div class="template-box">
+        <div class="template-box__label">Style of Music &mdash; Male Template</div>
+        <div class="template-box__value">post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, <em>[vocal descriptor]</em>, relentless intensity, 180 BPM</div>
+      </div>
+      <div class="template-box">
+        <div class="template-box__label">Style of Music &mdash; Female Template</div>
+        <div class="template-box__value">post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful female vocals, <em>[vocal descriptor]</em>, relentless intensity, 180 BPM</div>
+      </div>
+      <div class="template-box">
+        <div class="template-box__label">Exclude Styles &mdash; Used on Every Song</div>
+        <div class="template-box__value">power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</div>
+      </div>
+      <div class="template-box">
+        <div class="template-box__label">Lyrics Structure &mdash; Standard Post-Hardcore</div>
+        <div class="template-box__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+[End]</div>
+      </div>
+      <div class="section__intro" style="margin-top: 32px;">
+        Songs that needed more length added a <strong>[Bridge]</strong> (half-time, stripped back, heavy and slow) and <strong>[Final Chorus]</strong> (full power, everything, maximum intensity) after Verse 2. The 2-verse-only structure sometimes produced tracks under 2 minutes. The Bridge + Final Chorus addition fixed that.
+      </div>
+    </div>
+  </section>
+  <!-- ======================== KEY TECHNIQUES ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section__label">What We Learned</div>
+      <h2 class="section__heading">Key Techniques</h2>
+      <div class="section__intro">
+        These techniques apply to any genre in Suno, not just post-hardcore. They came from testing one variable at a time across dozens of generations.
+      </div>
+      <ul class="technique-list">
+        <li><strong>Put the most important tags first.</strong> Suno weights earlier tags in the Style field more heavily. Lead with genre, then energy, then instrumentation, then vocals.</li>
+        <li><strong>Fewer sections = longer tracks.</strong> 3 sections (Intro + Verse 1 + Verse 2 + End) produce longer, more developed tracks than 8&ndash;9 sections. Suno spends more time on each section when there are fewer of them.</li>
+        <li><strong>Arrangement notes go in the Lyrics field, not the Style field.</strong> Parenthetical notes like <code>(half-time, stripped back, heavy and slow)</code> under each section label tell Suno how to play that section. This is the primary way to control dynamics within a song.</li>
+        <li><strong>ALL CAPS lines trigger screamed/emphasized delivery.</strong> Use this for climactic moments. Normal case lines stay melodic or spoken; ALL CAPS lines are screamed. This gives you dynamic contrast without changing the Style prompt.</li>
+        <li><strong>Keep lyrics under ~1,500 characters.</strong> Shorter lyrics generate cleaner results. Two verses are often enough when the escalation is clear. The V5 Lyrics field allows up to 5,000 characters, but going past 1,500 produced noticeably rougher results.</li>
+        <li><strong>The word &ldquo;punk&rdquo; makes short songs.</strong> Using &ldquo;post-hardcore&rdquo; instead of &ldquo;post-hardcore punk&rdquo; in the Style field consistently produced longer tracks.</li>
+        <li><strong>Specify vocal gender.</strong> Always include &ldquo;male vocals&rdquo; or &ldquo;female vocals&rdquo; in the Style field. Without it, Suno picks randomly and may not match the material.</li>
+        <li><strong>Vocal descriptors change the emotional read.</strong> &ldquo;Young and shattered&rdquo; sounds like shock. &ldquo;Cold and relentless&rdquo; sounds like testimony. &ldquo;Haunted and trembling&rdquo; sounds like someone barely holding it together. Two words in the Style field change the entire performance.</li>
+        <li><strong>Test one variable at a time.</strong> When a generation doesn&rsquo;t work, change one thing and try again. Changing multiple variables makes it impossible to know what fixed the problem.</li>
+        <li><strong>Avoid &ldquo;progressive metalcore&rdquo; &mdash; it triggers power-metal guitar sounds.</strong> Use &ldquo;post-hardcore&rdquo; instead and add &ldquo;power metal&rdquo; to Exclude Styles.</li>
+        <li><strong>&ldquo;Melodic post-hardcore&rdquo; + lower BPM creates space for vulnerable vocals.</strong> Replacing &ldquo;fast aggressive&rdquo; with &ldquo;melodic post-hardcore&rdquo; and dropping from 180 to 155 BPM keeps the heavy guitars but gives the voice more room.</li>
+        <li><strong>Specifying male and female vocals in arrangement notes can trigger alternating delivery.</strong> In &ldquo;None of It Was Real,&rdquo; putting &ldquo;male vocals&rdquo; and &ldquo;female vocals&rdquo; in alternating verse arrangement notes while the Style field said &ldquo;male and female vocals&rdquo; made Suno alternate voices every other line &mdash; stronger than the intended per-verse alternation.</li>
+      </ul>
+    </div>
+  </section>
+  <!-- ======================== SONG PROMPTS ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section__label">The Songs</div>
+      <h2 class="section__heading">Full Prompts &amp; Inputs</h2>
+      <div class="section__intro">
+        Each song below shows the exact text entered into Suno&rsquo;s Custom Mode fields. The Style of Music field, the full Lyrics field (including metatags and arrangement notes), and the Exclude Styles field. Click &ldquo;Listen on Suno&rdquo; to hear the song, or use Suno&rsquo;s &ldquo;Reuse Prompt&rdquo; feature to use these prompts as a starting point for your own generations.
+      </div>
+    </div>
+  </section>
+  <!-- ==================== 1. THE OLD LIE ==================== -->
+  <div class="container">
+    <div id="the-old-lie" class="prompt-song">
+      <h3 class="prompt-song__title">The Old Lie</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;Dulce et Decorum Est&rdquo; &mdash; Wilfred Owen, 1920</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/b4a0406e-7286-4705-8a85-68adea0a3c38" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="the-old-lie.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+Dragging through the dark with sixty pounds strapped to our backs
+Kevlar soaked in sweat and dust, three days without sleep
+Boots cracked open at the seams, eyes locked on nothing
+Radio crackling words that nobody could hear anymore
+Then the road went white and the ground ripped open
+MOVE, FUCKING MOVE, GET OFF THE ROAD
+We dove for the ditch but he was half a second late
+I watched him through the dust still trying to stand
+His hands grabbing at his chest where the armor tore apart
+Blood pouring from his mouth faster than he could breathe
+He looked right at me and I could not reach him
+He choked to death in the dirt ten feet from my hands
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+I see his face every night the second my eyes close
+His mouth opening and closing with nothing coming out
+Blood running down his chin in a line that won't stop
+If you could walk behind that body bag onto the plane
+If you could hear his mother break apart on a front porch in the sun
+You would choke on every word before you'd ever say
+That it's sweet and fitting to die for your country
+YOU WOULD NEVER FUCKING SAY IT AGAIN
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 2. THE FLOOR GAVE OUT ==================== -->
+    <div id="the-floor-gave-out" class="prompt-song">
+      <h3 class="prompt-song__title">The Floor Gave Out</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;I Felt a Funeral, in my Brain&rdquo; &mdash; Emily Dickinson, 1861</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/dd8ae480-7e95-439a-9db1-5506b08934de" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="the-floor-gave-out.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+Something pacing back and forth inside my skull won't stop
+Footsteps grinding through the same loop every second of the day
+I can feel them wearing grooves into the back of my brain
+The pressure building like a fist is squeezing from the inside out
+Then a drumming started underneath the footsteps and it would not quit
+Pounding through my jaw and teeth and down into my chest
+Every thought I tried to hold just shook apart and fell
+They're dragging something heavy now across the floor of my mind
+I can hear it scraping, I can feel the weight of it
+Something in me cracked and I don't know what it was
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+There's a ringing now and I can't tell where it ends and I begin
+I am the sound, I am the walls, I am the room collapsing
+Every voice I ever heard is playing all at once
+Then the floor gave out and there was nothing underneath me
+I'm falling through the dark and there is nothing to grab onto
+No walls, no ground, no ceiling, nothing left to hold
+Just silence where my mind used to be
+AND THEN I HIT THE BOTTOM AND THERE WAS NOTHING THERE
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 3. SAME AS EVERYONE ==================== -->
+    <div id="same-as-everyone" class="prompt-song">
+      <h3 class="prompt-song__title">Same As Everyone</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;A Litany in Time of Plague&rdquo; &mdash; Thomas Nashe, 1592</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/b445c667-d0a8-41ba-b3ce-425e6fe84930" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="same-as-everyone.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+The billionaire flew in by helicopter to a private floor
+His doctors came from three countries with machines nobody else could get
+He died on a ventilator same as everyone
+The influencer filmed from her bed with the oxygen tube tucked behind her ear
+She coded at four AM and nobody posted that
+The girl down the hall was nineteen, ran cross country in the fall
+Couldn't breathe by spring, her mother's scream went through the walls
+I AM SICK AND I AM DYING LORD HAVE MERCY ON US
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+The firefighter benched three hundred pounds and ran five miles every day
+They flipped him face down on the mattress and his oxygen still dropped
+His wife taped photos of their kids to the window he couldn't turn to see
+The doctor who wrote the protocol got admitted to his own ward
+He read his own chart and watched his lungs fill on the screen
+He knew exactly what was happening and couldn't stop a thing
+The kid did everything right, masked and distant, didn't leave his room for a year
+He came in on a Tuesday and I zipped his bag on Thursday
+I AM SICK AND I AM DYING LORD HAVE MERCY ON US
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 4. THE WEIGHT OF HER HAND ==================== -->
+    <div id="the-weight-of-her-hand" class="prompt-song">
+      <h3 class="prompt-song__title">The Weight of Her Hand</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;Break, Break, Break&rdquo; &mdash; Alfred, Lord Tennyson, 1842</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/35e2db9b-3c25-4fd8-b274-4a8a41318b29" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="the-weight-of-her-hand.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, anguished and broken, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+Break, break, break, the waves don't give a damn
+The ocean keeps on crashing like nothing fucking happened
+The kids next door are laughing on their trampoline
+Their dad is calling them inside and they don't want to leave
+A woman jogs past the house with music in her ears
+The mailman left a package with her name still on the label
+I'm standing in the hallway and my mouth won't make a sound
+The whole world keeps on breathing and I WANT IT TO STOP
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+Her shoes are by the door, the left one on its side
+Her drawings on the fridge, a purple house, a yellow sun
+The pillow on her bed still has the shape of where she slept
+I'd give up everything I have for the weight of her hand
+And the sound of her voice screaming daddy from the stairs
+The cars go past the driveway to wherever people go
+But the grace of every morning that she was alive and here
+Will never come back to me
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 5. AND GOD SAID NOTHING ==================== -->
+    <div id="and-god-said-nothing" class="prompt-song">
+      <h3 class="prompt-song__title">And God Said Nothing</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;Porphyria&rsquo;s Lover&rdquo; &mdash; Robert Browning, 1836</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/6e91afde-aaa7-40e5-943e-deb867abcea5" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="and-god-said-nothing.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful female vocals, desperate and haunting, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+I came in from the rain and he was sitting in the dark
+I turned the lights on, hung my coat up, put the kettle on the stove
+I sat beside him and I pressed my head against his chest
+I thought that this was what it felt like to be someone's home
+His breathing slowed and I could feel his heartbeat through his shirt
+I closed my eyes because I trusted every hand he ever laid on me
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+He put his fingers through my hair and I leaned into it
+He wrapped it once around his fist and I did not pull away
+He wrapped it twice and something tightened and I opened up my eyes
+He wrapped it three times and I COULDN'T BREATHE, I COULDN'T SCREAM
+He held me like he loved me while the air left my lungs
+He opened up my eyes after I couldn't open them myself
+He put my head back on his shoulder like I'd only gone to sleep
+And God did not say a single word
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 6. NOTHING WOULD COME OUT ==================== -->
+    <div id="nothing-would-come-out" class="prompt-song">
+      <h3 class="prompt-song__title">Nothing Would Come Out</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;The Love Song of J. Alfred Prufrock&rdquo; &mdash; T.S. Eliot, 1915</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/2ebf8b76-f1b3-4eb4-b371-c703c01b147b" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="nothing-would-come-out.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, hollow and aching, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+It's two AM and the only light is the phone against the ceiling
+I scroll through birthday parties I was not invited to
+Weddings and group photos and people holding people
+I open up a comment box, I type something, I delete it
+I type it again and I delete it again
+I have measured out my life in infinite identical midnights
+Do I post this, do I send this, DO I DARE
+I put the phone down and I pick it back up in eleven seconds
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+A couple on the bench outside the coffee shop are sharing headphones
+Two friends at the next table haven't stopped laughing since they sat down
+A woman on the sidewalk runs to someone and they hold each other
+I am not the main character, I'm the person in the background
+I am the blur behind the couple in a stranger's photograph
+They are all singing to each other, every single one of them
+But they are not singing to me
+[Bridge]
+(half-time, stripped back, heavy and slow)
+I almost said hello today
+today
+I opened up my mouth but nothing would come out
+I had the words, I had the moment
+I WATCHED IT CLOSE
+[Final Chorus]
+(full power, everything, maximum intensity)
+THEY ARE ALL SINGING TO EACH OTHER
+EVERY SINGLE ONE OF THEM
+THEY ARE NOT SINGING TO ME
+AND THE ALARM GOES OFF AND I DROWN IN ANOTHER MORNING
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 7. THREE SECONDS ==================== -->
+    <div id="three-seconds" class="prompt-song">
+      <h3 class="prompt-song__title">Three Seconds</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;The Rime of the Ancient Mariner&rdquo; &mdash; Samuel Taylor Coleridge, 1798</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/6b3ea0e8-2bce-4c4d-8e0a-08d4b2dc495b" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="three-seconds.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>melodic post-hardcore, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful female vocals, haunted and trembling, relentless intensity, 155 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+I looked down for three seconds and the road didn't wait
+I felt the thud before I saw the windshield crack
+The airbag hit my chest and the phone landed face-up on the floor
+The screen was still lit when I opened my eyes
+I got out and she was lying in the crosswalk face-down
+Her groceries in the street, a bag of oranges split open on the curb
+Someone was screaming and I couldn't tell if it was me
+I stood there with glass in my hair and I COULDN'T MOVE
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+Her name was in the paper, she was fifty-three, she was walking home
+Her daughter sat behind me in the courtroom every single day
+I wanted her to scream at me but she never said a word
+The judge gave me two years and I served every one
+I got out and the crosswalk is still there, they repainted the lines
+People walk across it every morning like the ground forgot
+I take a different street now but I STILL SEE HER THERE
+[Bridge]
+(half-time, stripped back, heavy and slow)
+Three seconds
+I looked down for three seconds
+And she doesn't get to walk home anymore
+I put the phone in my pocket every morning
+AND I FEEL THE WEIGHT OF HER
+[Final Chorus]
+(full power, everything, maximum intensity)
+I STILL CARRY THE THING THAT KILLED HER
+IT'S IN MY POCKET IT'S IN MY HAND
+I STILL CARRY THE THING THAT KILLED HER
+AND IT BUZZES AND I FLINCH AND I SEE HER FACE EVERY TIME
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 8. MARCUS HAS MY PEN ==================== -->
+    <div id="marcus-has-my-pen" class="prompt-song">
+      <h3 class="prompt-song__title">Marcus Has My Pen</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;The Destruction of Sennacherib&rdquo; &mdash; Lord Byron, 1815</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/66ed681a-d7f3-4c55-bba0-63e89b92fc76" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="marcus-has-my-pen.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, young and shattered, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+Tuesday morning and the bell rang at seven forty-five
+I was late and running down the hall with one strap on my bag
+Emma had her head down on the desk because she stayed up late
+Marcus borrowed my pen third period and didn't give it back
+Someone's phone went off in class and everybody laughed
+The radiator in the corner was ticking like it always did
+It was the most ordinary morning of my entire life
+And none of us knew it was already over
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+They put us on buses and they wouldn't tell us where we were going
+My mom was screaming my name in the parking lot across the fence
+I couldn't hear her but I saw her mouth and I knew what it said
+There are seventeen desks in Mr. Davis's room and four of them are empty now
+Someone put flowers at the front door and they stayed until they rotted
+The radiator in the corner still ticks and nobody can sit near it
+They gave us new schedules so we wouldn't have to pass that hallway
+But I pass it anyway because I DON'T KNOW HOW TO STOP
+[Bridge]
+(half-time, stripped back, heavy and slow)
+Marcus still has my pen
+He can never give it back
+I think about that pen every single day
+I WANT MY PEN BACK
+I WANT MY FRIEND BACK
+[Final Chorus]
+(full power, everything, maximum intensity)
+THE BELL STILL RINGS AT SEVEN FORTY-FIVE
+AND WE STILL SIT DOWN AND WE STILL OPEN OUR BOOKS
+THE BELL STILL RINGS AT SEVEN FORTY-FIVE
+BUT FOUR DESKS ARE EMPTY AND THE MORNING IS GONE
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 9. JESÚS ==================== -->
+    <div id="jesus" class="prompt-song">
+      <h3 class="prompt-song__title">Jes&uacute;s</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;Gunga Din&rdquo; &mdash; Rudyard Kipling, 1890</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/cb570a27-0354-439b-b6fa-290eae5b0705" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="jesus.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male vocals, raw and confessional, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+He was there every morning before I turned my lights on
+Mowing the Hendersons' lawn, fixing the fence on the corner lot
+I locked my car doors when his truck was parked out on the street
+I told my wife I didn't want those guys working near our house
+I called the HOA about his trailer twice in June
+He waved at me every single morning and I never waved back
+I didn't know his name because I never asked
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+My daughter ran into the street and the car didn't stop
+I heard the sound before I saw her and my legs stopped working
+He dropped his toolbox on the sidewalk and he ran straight past me
+He was on his knees on the asphalt pressing on her chest
+He breathed into her mouth and he counted and he didn't stop
+He talked to her in a language I never learned and she kept breathing
+THE AMBULANCE TOOK HER AND SHE WAS ALIVE BECAUSE OF HIM
+[Bridge]
+(half-time, stripped back, heavy and slow)
+They took a statement and they asked him for ID
+His face was on the news that night
+ICE came on a Tuesday morning
+His family's house went dark
+[Final Chorus]
+(full power, everything, maximum intensity)
+THE YARD IS OVERGROWN AND HIS TRUCK IS GONE
+HIS TOOLBOX IS STILL ON THE SIDEWALK WHERE HE DROPPED IT
+I OPENED THE LID AND HIS NAME WAS WRITTEN THERE IN MARKER
+JESÚS
+YOU WERE A BETTER MAN THAN ME, JESÚS
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 10. FOLLOWED EVERY RULE ==================== -->
+    <div id="followed-every-rule" class="prompt-song">
+      <h3 class="prompt-song__title">Followed Every Rule</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;The Mask of Anarchy&rdquo; &mdash; Percy Bysshe Shelley, 1819</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/8b27075a-68dd-41b3-b07c-29315b2f5d99" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="followed-every-rule.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful female vocals, cold and relentless, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+A kid asked her to use a different name
+She wrote it on the seating chart, she used it when she called on them
+That was it, that was all she did
+A parent called the principal and the principal pulled up the policy
+Zero tolerance, they put her in a room with no windows
+She said I was protecting a student
+That sentence is not in the meeting notes
+Fifteen years in a cardboard box, a substitute in her chair by one
+[Verse 2]
+(same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+He made his sign from cardboard in the recycling bin
+Stood on the sidewalk two hours sharing water with a stranger
+Then the line moved, shields, helmets, a sound he'd never heard
+Gas between him and the water bottle, then a rubber bullet hit his face
+Non-lethal, that's the word they used, he lost his left eye on the sidewalk
+His sign is under someone's boot
+Twenty-seven hours cuffed to a hospital bed, charged with resisting arrest
+He was standing still
+The officer is not named in any report
+[Verse 3]
+(same high intensity, relentless, no break between verses)
+He called 911 because that's the number you call
+Said I need help, I'm scared, the dispatcher said help is coming
+Four officers, body armor, commands before they're through the door
+He's in his kitchen in his pajamas and he's crying
+He flinches and flinching is resisting
+A knee on his neck on the tile he picked out at the hardware store
+He said he can't breathe and he said it again and then he stopped saying it
+The report says combative, 140 pounds, in his pajamas
+[Bridge]
+(half-time, stripped back, heavy and slow)
+A seating chart
+A cardboard sign
+A pair of pajamas
+A coffee mug a student gave her
+A water bottle
+Kitchen tile
+[Final Chorus]
+(full power, everything, maximum intensity)
+SHE LOST HER CLASSROOM
+HE LOST HIS SIGHT
+HE LOST HIS BREATH
+THEY DID WHAT THEY WERE TOLD
+THEY FOLLOWED EVERY RULE
+THE RULES DID NOT PROTECT THEM
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+    <!-- ==================== 11. NONE OF IT WAS REAL ==================== -->
+    <div id="none-of-it-was-real" class="prompt-song">
+      <h3 class="prompt-song__title">None of It Was Real</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;The Waste Land&rdquo; &mdash; T.S. Eliot, 1922</p>
+      <div class="prompt-song__links">
+        <a href="https://suno.com/song/44d9bab7-5fe5-457a-9e13-eadaa631b111" class="prompt-song__link">Listen on Suno &rarr;</a>
+        <a href="none-of-it-was-real.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful male and female vocals, numb and distant, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(full intensity from beat one, fast heavy downtuned power chords, double kick blast, no build up, maximum volume immediately)
+[Verse 1]
+(male vocals, relentless fast palm-muted riffs, thick wall of distorted guitars, pounding double kick, full intensity)
+September thirteenth, two days after the sky fell down
+I put my headset on and logged into the queue
+The first call was a billing dispute from a woman in Michigan
+She wanted to know why her statement was six dollars over
+I read the script, I pulled up her account, I made the adjustment
+Three thousand people were dead and I said is there anything else I can help you with today
+She said no and I took the next call
+The hold music played the same song it played on September tenth
+[Verse 2]
+(female vocals, same high intensity, fast downtuned power chords, double kick drums never stopping, dense heavy distortion)
+I watched my street go under from a Holiday Inn in Houston
+The TV showed my roof and then it showed my roof go under
+A maid knocked on the door and asked if I needed towels
+I said yes because I didn't know what else to say
+The ice machine hummed at the end of the hallway all night
+They put out continental breakfast at six AM and the city was drowning
+I ate a bagel and I watched the water rise another foot
+I couldn't tell if I was saving myself or if I'd already disappeared
+[Verse 3]
+(male vocals, same relentless intensity, no dynamic change, wall of distortion)
+The boats haven't moved in six weeks and the water's black
+Everything I ever pulled from that ocean is gone
+I drove to the gas station on Route 1 and I filled up my truck
+I looked at the logo on the pump and it was the same company
+The same people who lit the ocean on fire sold me the gas to drive home and watch it burn
+I put my card in, I punched the buttons, I waited for the receipt
+The pump clicked off and I drove home
+The ocean was still burning when I pulled into the driveway
+[Verse 4]
+(female vocals, same high intensity, dense wall of sound, pounding relentless drums)
+The weekend after Pulse I went to a club that looked just like it
+Same lights, same bass, same bodies pressed together on the floor
+I danced because stopping means he wins
+But I checked the exits when I walked in
+I counted the doors while the music played
+I felt the bass in my chest and I couldn't tell if it was the speaker or my heart
+Forty-nine people were dead in a place that looked like this
+AND I DANCED AND I COUNTED THE DOORS AT THE SAME TIME
+[Bridge]
+(half-time, stripped back, heavy and slow, male and female vocals together)
+I answered the phone
+I took the towel
+I paid for the gas
+I danced
+The world broke four times and I just kept going
+I kept going
+I KEPT GOING
+[Final Chorus]
+(full power, everything, maximum intensity, male and female vocals together)
+NOTHING STOPPED
+THE HOLD MUSIC NEVER STOPPED
+THE ICE MACHINE NEVER STOPPED
+THE PUMP NEVER STOPPED
+THE BASS NEVER STOPPED
+AND I NEVER STOPPED
+AND NONE OF IT WAS REAL
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__text">
+        All source poems are in the public domain. Song lyrics are original works inspired by the themes and structures of the source poems.<br>
+        Poem adaptations and modernized lyrics were created in collaboration with <a href="https://claude.ai" style="color: var(--text-dim);">Claude</a> by Anthropic. Songs were generated with <a href="https://suno.com" style="color: var(--text-dim);">Suno</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
