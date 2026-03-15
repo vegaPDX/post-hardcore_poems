@@ -8,17 +8,17 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #c8c3ba;
-  --bg-raised: #d5d0c8;
-  --bg-inset: #bfbab1;
-  --text-primary: #1a1816;
-  --text-secondary: #4a4540;
-  --text-dim: #6e6960;
-  --accent: #8b2e1a;
-  --accent-hover: #a63a22;
-  --accent-dim: rgba(139, 46, 26, 0.12);
-  --border: #a8a39a;
-  --border-light: #b5b0a7;
+  --bg: #fafafa;
+  --bg-raised: #f2f2f0;
+  --bg-inset: #f2f2f0;
+  --text-primary: #111111;
+  --text-secondary: #4a4a4a;
+  --text-dim: #777777;
+  --accent: #9b1b30;
+  --accent-hover: #b82240;
+  --accent-dim: rgba(155, 27, 48, 0.1);
+  --border: #dddcda;
+  --border-light: #e8e7e5;
   --font-display: 'Cormorant', Georgia, serif;
   --font-body: 'Libre Baskerville', Georgia, serif;
   --font-ui: 'Work Sans', system-ui, sans-serif;
