@@ -33,7 +33,11 @@ Each song page on the site shows three things:
 3. **How the title works as a structural element.** Every song page ends with an analysis of how the poem's title and the song's title each function within their respective texts.
  
 ## The Songs
- 
+
+The project is organized into volumes of 12 songs each.
+
+### Volume 1
+
 | # | Song | Source Poem | Poet | Year |
 |---|---|---|---|---|
 | 1 | The Old Lie | Dulce et Decorum Est | Wilfred Owen | 1920 |
@@ -48,6 +52,12 @@ Each song page on the site shows three things:
 | 10 | Followed Every Rule | The Mask of Anarchy | Percy Bysshe Shelley | 1819 |
 | 11 | None of It Was Real | The Waste Land | T.S. Eliot | 1922 |
 | 12 | There Was Never Anyone There | Hap | Thomas Hardy | 1866 |
+
+### Volume 2 (in progress)
+
+| # | Song | Source Poem | Poet | Year |
+|---|---|---|---|---|
+| 1 | Friend of a Friend | La Belle Dame sans Merci | John Keats | 1819 |
  
 ## How the Songs Are Made
  
@@ -64,31 +74,39 @@ The songs are available on my [Suno profile](https://suno.com/@vegapdx). They ar
 All source poems are in the public domain. The song lyrics are original works. In the spirit of the public domain artwork that inspired this project, all songs are open for edits, remixes, and covers. Take them, change them, make them yours. That's what I did with the poems.
  
 ## Repo Structure
- 
-All files live in the root directory. There are no subfolders.
- 
-| File | Purpose |
-|---|---|
-| `index.html` | Homepage — intro text and card grid linking to all song pages |
-| `prompts.html` | Suno prompts page — base templates, key techniques, and full inputs for every song |
-| `styles.css` | Shared stylesheet used by every page |
-| `README.md` | This file |
-| `the-old-lie.html` | Song page — Owen's "Dulce et Decorum Est" |
-| `the-floor-gave-out.html` | Song page — Dickinson's "I Felt a Funeral, in my Brain" |
-| `same-as-everyone.html` | Song page — Nashe's "A Litany in Time of Plague" |
-| `the-weight-of-her-hand.html` | Song page — Tennyson's "Break, Break, Break" |
-| `and-god-said-nothing.html` | Song page — Browning's "Porphyria's Lover" |
-| `nothing-would-come-out.html` | Song page — Eliot's "The Love Song of J. Alfred Prufrock" |
-| `three-seconds.html` | Song page — Coleridge's "The Rime of the Ancient Mariner" |
-| `marcus-has-my-pen.html` | Song page — Byron's "The Destruction of Sennacherib" |
-| `jesus.html` | Song page — Kipling's "Gunga Din" |
-| `followed-every-rule.html` | Song page — Shelley's "The Mask of Anarchy" |
-| `none-of-it-was-real.html` | Song page — Eliot's "The Waste Land" |
-| `there-was-never-anyone-there.html` | Song page — Hardy's "Hap" |
+
+The site is organized into volumes, each in its own subdirectory. Shared assets and the hub page live at the root.
+
+```
+/
+├── index.html              Hub page — links to all volumes
+├── styles.css              Shared stylesheet used by every page
+├── prompts.html            Suno prompts — base templates, techniques, and full inputs
+├── README.md               This file
+├── vol1/
+│   ├── index.html          Volume 1 song grid
+│   ├── the-old-lie.html    Owen's "Dulce et Decorum Est"
+│   ├── the-floor-gave-out.html       Dickinson's "I Felt a Funeral, in my Brain"
+│   ├── same-as-everyone.html         Nashe's "A Litany in Time of Plague"
+│   ├── the-weight-of-her-hand.html   Tennyson's "Break, Break, Break"
+│   ├── and-god-said-nothing.html     Browning's "Porphyria's Lover"
+│   ├── nothing-would-come-out.html   Eliot's "The Love Song of J. Alfred Prufrock"
+│   ├── three-seconds.html            Coleridge's "The Rime of the Ancient Mariner"
+│   ├── marcus-has-my-pen.html        Byron's "The Destruction of Sennacherib"
+│   ├── jesus.html                    Kipling's "Gunga Din"
+│   ├── followed-every-rule.html      Shelley's "The Mask of Anarchy"
+│   ├── none-of-it-was-real.html      Eliot's "The Waste Land"
+│   └── there-was-never-anyone-there.html   Hardy's "Hap"
+└── vol2/
+    ├── index.html          Volume 2 song grid
+    └── friend-of-a-friend.html       Keats's "La Belle Dame sans Merci"
+```
+
+Each volume directory contains its own `index.html` (song grid) and individual song pages. All pages reference `../styles.css` from subdirectories. A volume switcher nav (Home | Vol. 1 | Vol. 2) appears in the header of every page. Adding a new volume means creating a new directory (e.g. `vol3/`) and adding a link to the switcher.
  
 ## Technical Details
  
-The site is pure HTML and CSS. No JavaScript, no build tools, no frameworks, no dependencies other than Google Fonts. Every page references `styles.css` with a relative path. The site is responsive — two-column layouts collapse to single-column below 700px. Hosted on GitHub Pages, deployed from the `main` branch.
+The site is pure HTML and CSS. No JavaScript, no build tools, no frameworks, no dependencies other than Google Fonts. Pages in subdirectories reference `../styles.css`; root pages reference `styles.css` directly. The site is responsive — two-column layouts collapse to single-column below 700px. Hosted on GitHub Pages, deployed from the `main` branch.
  
 Fonts loaded from Google Fonts: Cormorant (display/headings), Libre Baskerville (body text/poem text/lyrics), Work Sans (labels/navigation).
  
