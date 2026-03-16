@@ -518,6 +518,80 @@ img { max-width: 100%; }
   line-height: 1.6;
 }
 
+/* --- Volume Switcher --- */
+.volume-switcher {
+  display: inline-flex;
+  gap: 4px;
+  margin-right: 16px;
+}
+
+.volume-switcher__link {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.volume-switcher__link:hover {
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.volume-switcher__link--active {
+  color: var(--accent);
+  background: var(--accent-dim);
+  font-weight: 600;
+}
+
+/* --- Volume Grid (Hub Page) --- */
+.volume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.volume-card {
+  display: block;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 32px;
+  transition: border-color 0.25s, background 0.25s;
+}
+
+.volume-card:hover {
+  border-color: var(--accent);
+  background: var(--bg-inset);
+}
+
+.volume-card__title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.volume-card__count {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+
+.volume-card__description {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
 /* --- Utility --- */
 .sr-only {
   position: absolute;
