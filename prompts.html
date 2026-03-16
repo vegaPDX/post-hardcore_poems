@@ -211,6 +211,7 @@
         <li><strong>Avoid &ldquo;progressive metalcore&rdquo; &mdash; it triggers power-metal guitar sounds.</strong> Use &ldquo;post-hardcore&rdquo; instead and add &ldquo;power metal&rdquo; to Exclude Styles.</li>
         <li><strong>&ldquo;Melodic post-hardcore&rdquo; + lower BPM creates space for different vocal needs.</strong> Replacing &ldquo;fast aggressive&rdquo; with &ldquo;melodic post-hardcore&rdquo; and dropping from 180 to 155 BPM keeps the heavy guitars but gives the voice more room. Use it for vulnerable vocals (Three Seconds) and for image-heavy lyrics where each line needs space to land before the next one hits (There Was Never Anyone There).</li>
         <li><strong>Specifying male and female vocals in arrangement notes can trigger alternating delivery.</strong> In &ldquo;None of It Was Real,&rdquo; putting &ldquo;male vocals&rdquo; and &ldquo;female vocals&rdquo; in alternating verse arrangement notes while the Style field said &ldquo;male and female vocals&rdquo; made Suno alternate voices every other line &mdash; stronger than the intended per-verse alternation.</li>
+        <li><strong>Use Extend to change the Style mid-song.</strong> Generate the first section with one Style prompt (e.g. melodic, 155 BPM). Pick the best take. Use Extend from the end of that take with a different Style prompt (e.g. fast aggressive, 180 BPM). Suno continues from the audio it already has, so the transition is seamless. Use &ldquo;Get Whole Song&rdquo; to combine both halves into one file. This is how Friend of a Friend shifts from 155 BPM melodic to 180 BPM aggressive at the flinch.</li>
       </ul>
     </div>
   </section>
@@ -224,6 +225,13 @@
       </div>
     </div>
   </section>
+  <!-- ======================== VOLUME 1 ======================== -->
+  <section class="section" style="padding-bottom: 24px;">
+    <div class="container">
+      <div class="section__label">Volume 1</div>
+      <h2 class="section__heading">12 Songs</h2>
+    </div>
+  </section>
   <!-- ==================== 1. THE OLD LIE ==================== -->
   <div class="container">
     <div id="the-old-lie" class="prompt-song">
@@ -231,7 +239,7 @@
       <p class="prompt-song__source">Adapted from &ldquo;Dulce et Decorum Est&rdquo; &mdash; Wilfred Owen, 1920</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/b4a0406e-7286-4705-8a85-68adea0a3c38" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="the-old-lie.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/the-old-lie.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -278,7 +286,7 @@ YOU WOULD NEVER FUCKING SAY IT AGAIN
       <p class="prompt-song__source">Adapted from &ldquo;I Felt a Funeral, in my Brain&rdquo; &mdash; Emily Dickinson, 1861</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/dd8ae480-7e95-439a-9db1-5506b08934de" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="the-floor-gave-out.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/the-floor-gave-out.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -323,7 +331,7 @@ AND THEN I HIT THE BOTTOM AND THERE WAS NOTHING THERE
       <p class="prompt-song__source">Adapted from &ldquo;A Litany in Time of Plague&rdquo; &mdash; Thomas Nashe, 1592</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/b445c667-d0a8-41ba-b3ce-425e6fe84930" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="same-as-everyone.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/same-as-everyone.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -367,7 +375,7 @@ I AM SICK AND I AM DYING LORD HAVE MERCY ON US
       <p class="prompt-song__source">Adapted from &ldquo;Break, Break, Break&rdquo; &mdash; Alfred, Lord Tennyson, 1842</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/35e2db9b-3c25-4fd8-b274-4a8a41318b29" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="the-weight-of-her-hand.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/the-weight-of-her-hand.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -410,7 +418,7 @@ Will never come back to me
       <p class="prompt-song__source">Adapted from &ldquo;Porphyria&rsquo;s Lover&rdquo; &mdash; Robert Browning, 1836</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/6e91afde-aaa7-40e5-943e-deb867abcea5" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="and-god-said-nothing.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/and-god-said-nothing.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -451,7 +459,7 @@ And God did not say a single word
       <p class="prompt-song__source">Adapted from &ldquo;The Love Song of J. Alfred Prufrock&rdquo; &mdash; T.S. Eliot, 1915</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/2ebf8b76-f1b3-4eb4-b371-c703c01b147b" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="nothing-would-come-out.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/nothing-would-come-out.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -506,7 +514,7 @@ AND THE ALARM GOES OFF AND I DROWN IN ANOTHER MORNING
       <p class="prompt-song__source">Adapted from &ldquo;The Rime of the Ancient Mariner&rdquo; &mdash; Samuel Taylor Coleridge, 1798</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/6b3ea0e8-2bce-4c4d-8e0a-08d4b2dc495b" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="three-seconds.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/three-seconds.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -561,7 +569,7 @@ AND IT BUZZES AND I FLINCH AND I SEE HER FACE EVERY TIME
       <p class="prompt-song__source">Adapted from &ldquo;The Destruction of Sennacherib&rdquo; &mdash; Lord Byron, 1815</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/66ed681a-d7f3-4c55-bba0-63e89b92fc76" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="marcus-has-my-pen.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/marcus-has-my-pen.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -617,7 +625,7 @@ BUT FOUR DESKS ARE EMPTY AND THE MORNING IS GONE
       <p class="prompt-song__source">Adapted from &ldquo;Gunga Din&rdquo; &mdash; Rudyard Kipling, 1890</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/cb570a27-0354-439b-b6fa-290eae5b0705" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="jesus.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/jesus.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -671,7 +679,7 @@ YOU WERE A BETTER MAN THAN ME, JESÚS
       <p class="prompt-song__source">Adapted from &ldquo;The Mask of Anarchy&rdquo; &mdash; Percy Bysshe Shelley, 1819</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/8b27075a-68dd-41b3-b07c-29315b2f5d99" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="followed-every-rule.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/followed-every-rule.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -741,7 +749,7 @@ THE RULES DID NOT PROTECT THEM
       <p class="prompt-song__source">Adapted from &ldquo;The Waste Land&rdquo; &mdash; T.S. Eliot, 1922</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/44d9bab7-5fe5-457a-9e13-eadaa631b111" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="none-of-it-was-real.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/none-of-it-was-real.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -822,7 +830,7 @@ AND NONE OF IT WAS REAL
       <p class="prompt-song__source">Adapted from &ldquo;Hap&rdquo; &mdash; Thomas Hardy, 1866</p>
       <div class="prompt-song__links">
         <a href="https://suno.com/song/9b1bca27-e34f-4ff4-9e8d-68da80f5d666" class="prompt-song__link">Listen on Suno &rarr;</a>
-        <a href="there-was-never-anyone-there.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+        <a href="vol1/there-was-never-anyone-there.html" class="prompt-song__link">Read the breakdown &rarr;</a>
       </div>
       <div class="prompt-field">
         <div class="prompt-field__label">Style of Music</div>
@@ -868,6 +876,94 @@ YOU WERE NEVER REAL
 YOU WERE NEVER WATCHING
 YOU CAN&rsquo;T BE DEAD
 THERE WAS NEVER ANYONE THERE TO DIE
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+    </div>
+  </div>
+  <!-- ======================== VOLUME 2 ======================== -->
+  <section class="section" style="padding-bottom: 24px;">
+    <div class="container">
+      <div class="section__label">Volume 2</div>
+      <h2 class="section__heading">In Progress</h2>
+    </div>
+  </section>
+  <!-- ==================== VOL2-1. FRIEND OF A FRIEND ==================== -->
+  <div class="container">
+    <div id="friend-of-a-friend" class="prompt-song">
+      <h3 class="prompt-song__title">Friend of a Friend</h3>
+      <p class="prompt-song__source">Adapted from &ldquo;La Belle Dame sans Merci&rdquo; &mdash; John Keats, 1819</p>
+      <div class="prompt-song__links">
+        <a href="vol2/friend-of-a-friend.html" class="prompt-song__link">Read the breakdown &rarr;</a>
+      </div>
+      <div class="section__intro" style="margin-bottom: 24px;">
+        <strong>Method: Extend (two-generation stitch).</strong> Prompt 1 generated Verse 1 at 155 BPM melodic. Best take selected. Prompt 2 applied via Suno&rsquo;s Extend feature from the end of that take, swapping the Style of Music to the 180 BPM aggressive prompt. &ldquo;Get Whole Song&rdquo; (three-dot menu &rarr; Create &rarr; Get Whole Song) combined both halves into the final file.
+      </div>
+      <h4 style="font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 16px;">Prompt 1 &mdash; Initial Generation (Verse 1, 155 BPM)</h4>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>melodic post-hardcore, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful female vocals, steady and fracturing, relentless intensity, 155 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Instrumental Intro]
+(melodic post-hardcore, steady build, downtuned guitars swelling, measured double kick, building tension not exploding)
+[Verse 1]
+(steady, controlled, recounting calmly, melodic vocal delivery)
+He picks me up at seven and he&rsquo;s early by ten minutes
+He&rsquo;s leaning on the car and smiling when I come outside
+I know him through Sarah, he was at her birthday back in June
+He opens my door and I say you really didn&rsquo;t have to do that
+The restaurant is loud and warm and he remembers what I drink
+He tells a story about his dog and I&rsquo;m laughing with my whole face
+He puts his hand on the small of my back to guide me through the parking lot
+His hand is warm and I lean into it and I
+[End]</div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Exclude Styles</div>
+        <div class="prompt-field__value"><code>power metal, bright guitar, clean guitar, acoustic, slow tempo, soft vocals, gentle</code></div>
+      </div>
+      <h4 style="font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-top: 32px; margin-bottom: 16px;">Prompt 2 &mdash; Extend Continuation (Verse 2 through End, 180 BPM)</h4>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Style of Music</div>
+        <div class="prompt-field__value"><code>post-hardcore, fast aggressive, thick downtuned distorted guitars, wall of distortion, double kick drums, raw powerful female vocals, numb and shaking, relentless intensity, 180 BPM</code></div>
+      </div>
+      <div class="prompt-field">
+        <div class="prompt-field__label">Lyrics</div>
+        <div class="prompt-field__value">[Verse 2]
+(numb, shaking, barely holding together, aggressive, raw, desperate)
+flinch when the glove touches my spine
+The light above me is humming and I&rsquo;m staring at the ceiling
+She says I&rsquo;m going to swab the inside of your cheek now
+I open my mouth and I hold still
+She says can you tell me what happened after you left the restaurant
+I went to his place and I
+She says I need to photograph your arms now
+I hold them out and they don&rsquo;t look like mine
+The paper gown is open in the back and the table is so cold
+She puts something in a plastic bag and writes the date on it
+She writes the date on everything
+[Verse 3]
+(same aggressive intensity, numb and shaking, no drop)
+I drive home and I lock the door and I stand in the shower until the water goes cold
+I don&rsquo;t go to Sarah&rsquo;s thing on Saturday and I don&rsquo;t say why
+He&rsquo;s there, I know he&rsquo;s there because I see the photos on her story
+He&rsquo;s laughing in the background of someone else&rsquo;s picture
+I mute the group chat and I delete his number but his name is still in my head
+Three weeks later a girl I barely know sends me a message at two AM
+She says I heard what happened to you
+She says he did the same thing to me
+She says I was a friend of a friend too
+[Bridge]
+(half-time, stripped back, heavy and slow)
+The examiner asks me one more question
+I open my mouth
+I have the words
+I HAVE THE WORDS
 [End]</div>
       </div>
       <div class="prompt-field">
