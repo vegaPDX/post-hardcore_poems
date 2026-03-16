@@ -80,31 +80,6 @@
       </div>
     </div>
   </section>
-  <!-- ======================== KEY TECHNIQUES ======================== -->
-  <section class="section">
-    <div class="container">
-      <div class="section__label">What We Learned</div>
-      <h2 class="section__heading">Key Techniques</h2>
-      <div class="section__intro">
-        These techniques apply to any genre in Suno, not just post-hardcore. They came from testing one variable at a time across dozens of generations.
-      </div>
-      <ul class="technique-list">
-        <li><strong>Put the most important tags first.</strong> Suno weights earlier tags in the Style field more heavily. Lead with genre, then energy, then instrumentation, then vocals.</li>
-        <li><strong>Fewer sections = longer tracks.</strong> 3 sections (Intro + Verse 1 + Verse 2 + End) produce longer, more developed tracks than 8&ndash;9 sections. Suno spends more time on each section when there are fewer of them.</li>
-        <li><strong>Arrangement notes go in the Lyrics field, not the Style field.</strong> Parenthetical notes like <code>(half-time, stripped back, heavy and slow)</code> under each section label tell Suno how to play that section. This is the primary way to control dynamics within a song.</li>
-        <li><strong>ALL CAPS lines trigger screamed/emphasized delivery.</strong> Use this for climactic moments. Normal case lines stay melodic or spoken; ALL CAPS lines are screamed. This gives you dynamic contrast without changing the Style prompt.</li>
-        <li><strong>Keep lyrics under ~1,500 characters.</strong> Shorter lyrics generate cleaner results. Two verses are often enough when the escalation is clear. The V5 Lyrics field allows up to 5,000 characters, but going past 1,500 produced noticeably rougher results.</li>
-        <li><strong>The word &ldquo;punk&rdquo; makes short songs.</strong> Using &ldquo;post-hardcore&rdquo; instead of &ldquo;post-hardcore punk&rdquo; in the Style field consistently produced longer tracks.</li>
-        <li><strong>Specify vocal gender.</strong> Always include &ldquo;male vocals&rdquo; or &ldquo;female vocals&rdquo; in the Style field. Without it, Suno picks randomly and may not match the material.</li>
-        <li><strong>Vocal descriptors change the emotional read.</strong> &ldquo;Young and shattered&rdquo; sounds like shock. &ldquo;Cold and relentless&rdquo; sounds like testimony. &ldquo;Haunted and trembling&rdquo; sounds like someone barely holding it together. Two words in the Style field change the entire performance.</li>
-        <li><strong>Test one variable at a time.</strong> When a generation doesn&rsquo;t work, change one thing and try again. Changing multiple variables makes it impossible to know what fixed the problem.</li>
-        <li><strong>Avoid &ldquo;progressive metalcore&rdquo; &mdash; it triggers power-metal guitar sounds.</strong> Use &ldquo;post-hardcore&rdquo; instead and add &ldquo;power metal&rdquo; to Exclude Styles.</li>
-        <li><strong>&ldquo;Melodic post-hardcore&rdquo; + lower BPM creates space for different vocal needs.</strong> Replacing &ldquo;fast aggressive&rdquo; with &ldquo;melodic post-hardcore&rdquo; and dropping from 180 to 155 BPM keeps the heavy guitars but gives the voice more room. Use it for vulnerable vocals (Three Seconds) and for image-heavy lyrics where each line needs space to land before the next one hits (There Was Never Anyone There).</li>
-        <li><strong>Specifying male and female vocals in arrangement notes can trigger alternating delivery.</strong> In &ldquo;None of It Was Real,&rdquo; putting &ldquo;male vocals&rdquo; and &ldquo;female vocals&rdquo; in alternating verse arrangement notes while the Style field said &ldquo;male and female vocals&rdquo; made Suno alternate voices every other line &mdash; stronger than the intended per-verse alternation.</li>
-        <li><strong>Use Extend to change the Style mid-song.</strong> Generate the first section with one Style prompt (e.g. melodic, 155 BPM). Pick the best take. Use Extend from the end of that take with a different Style prompt (e.g. fast aggressive, 180 BPM). Suno continues from the audio it already has, so the transition is seamless. Use &ldquo;Get Whole Song&rdquo; to combine both halves into one file. This is how Friend of a Friend shifts from 155 BPM melodic to 180 BPM aggressive at the flinch.</li>
-      </ul>
-    </div>
-  </section>
   <!-- ======================== VOLUME 1 SONG CARDS ======================== -->
   <section class="song-grid-section">
     <div class="container--wide">
@@ -186,6 +161,31 @@
         </a>
 
       </div>
+    </div>
+  </section>
+  <!-- ======================== KEY TECHNIQUES ======================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section__label">What We Learned</div>
+      <h2 class="section__heading">Key Techniques</h2>
+      <div class="section__intro">
+        These techniques apply to any genre in Suno, not just post-hardcore. They came from testing one variable at a time across dozens of generations.
+      </div>
+      <ul class="technique-list">
+        <li><strong>Put the most important tags first.</strong> Suno weights earlier tags in the Style field more heavily. Lead with genre, then energy, then instrumentation, then vocals.</li>
+        <li><strong>Fewer sections = longer tracks.</strong> 3 sections (Intro + Verse 1 + Verse 2 + End) produce longer, more developed tracks than 8&ndash;9 sections. Suno spends more time on each section when there are fewer of them.</li>
+        <li><strong>Arrangement notes go in the Lyrics field, not the Style field.</strong> Parenthetical notes like <code>(half-time, stripped back, heavy and slow)</code> under each section label tell Suno how to play that section. This is the primary way to control dynamics within a song.</li>
+        <li><strong>ALL CAPS lines trigger screamed/emphasized delivery.</strong> Use this for climactic moments. Normal case lines stay melodic or spoken; ALL CAPS lines are screamed. This gives you dynamic contrast without changing the Style prompt.</li>
+        <li><strong>Keep lyrics under ~1,500 characters.</strong> Shorter lyrics generate cleaner results. Two verses are often enough when the escalation is clear. The V5 Lyrics field allows up to 5,000 characters, but going past 1,500 produced noticeably rougher results.</li>
+        <li><strong>The word &ldquo;punk&rdquo; makes short songs.</strong> Using &ldquo;post-hardcore&rdquo; instead of &ldquo;post-hardcore punk&rdquo; in the Style field consistently produced longer tracks.</li>
+        <li><strong>Specify vocal gender.</strong> Always include &ldquo;male vocals&rdquo; or &ldquo;female vocals&rdquo; in the Style field. Without it, Suno picks randomly and may not match the material.</li>
+        <li><strong>Vocal descriptors change the emotional read.</strong> &ldquo;Young and shattered&rdquo; sounds like shock. &ldquo;Cold and relentless&rdquo; sounds like testimony. &ldquo;Haunted and trembling&rdquo; sounds like someone barely holding it together. Two words in the Style field change the entire performance.</li>
+        <li><strong>Test one variable at a time.</strong> When a generation doesn&rsquo;t work, change one thing and try again. Changing multiple variables makes it impossible to know what fixed the problem.</li>
+        <li><strong>Avoid &ldquo;progressive metalcore&rdquo; &mdash; it triggers power-metal guitar sounds.</strong> Use &ldquo;post-hardcore&rdquo; instead and add &ldquo;power metal&rdquo; to Exclude Styles.</li>
+        <li><strong>&ldquo;Melodic post-hardcore&rdquo; + lower BPM creates space for different vocal needs.</strong> Replacing &ldquo;fast aggressive&rdquo; with &ldquo;melodic post-hardcore&rdquo; and dropping from 180 to 155 BPM keeps the heavy guitars but gives the voice more room. Use it for vulnerable vocals (Three Seconds) and for image-heavy lyrics where each line needs space to land before the next one hits (There Was Never Anyone There).</li>
+        <li><strong>Specifying male and female vocals in arrangement notes can trigger alternating delivery.</strong> In &ldquo;None of It Was Real,&rdquo; putting &ldquo;male vocals&rdquo; and &ldquo;female vocals&rdquo; in alternating verse arrangement notes while the Style field said &ldquo;male and female vocals&rdquo; made Suno alternate voices every other line &mdash; stronger than the intended per-verse alternation.</li>
+        <li><strong>Use Extend to change the Style mid-song.</strong> Generate the first section with one Style prompt (e.g. melodic, 155 BPM). Pick the best take. Use Extend from the end of that take with a different Style prompt (e.g. fast aggressive, 180 BPM). Suno continues from the audio it already has, so the transition is seamless. Use &ldquo;Get Whole Song&rdquo; to combine both halves into one file. This is how Friend of a Friend shifts from 155 BPM melodic to 180 BPM aggressive at the flinch.</li>
+      </ul>
     </div>
   </section>
   <!-- ======================== FOOTER ======================== -->
