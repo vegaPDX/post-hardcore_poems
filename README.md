@@ -81,7 +81,7 @@ The site is organized into volumes, each in its own subdirectory. Shared assets 
 /
 ├── index.html              Hub page — links to all volumes
 ├── styles.css              Shared stylesheet used by every page
-├── prompts.html            Suno prompts — base templates, techniques, and full inputs
+├── prompts.html            Suno prompts index — base templates, techniques, song cards
 ├── README.md               This file
 ├── vol1/
 │   ├── index.html          Volume 1 song grid
@@ -97,12 +97,16 @@ The site is organized into volumes, each in its own subdirectory. Shared assets 
 │   ├── followed-every-rule.html      Shelley's "The Mask of Anarchy"
 │   ├── none-of-it-was-real.html      Eliot's "The Waste Land"
 │   └── there-was-never-anyone-there.html   Hardy's "Hap"
-└── vol2/
-    ├── index.html          Volume 2 song grid
-    └── friend-of-a-friend.html       Keats's "La Belle Dame sans Merci"
+├── vol2/
+│   ├── index.html          Volume 2 song grid
+│   └── friend-of-a-friend.html       Keats's "La Belle Dame sans Merci"
+└── song_prompts/
+    ├── the-old-lie.html    Full Suno inputs for each song
+    ├── ...                 (one page per song, all volumes)
+    └── friend-of-a-friend.html
 ```
 
-Each volume directory contains its own `index.html` (song grid) and individual song pages. All pages reference `../styles.css` from subdirectories. A volume switcher nav (Home | Vol. 1 | Vol. 2) appears in the header of every page. Adding a new volume means creating a new directory (e.g. `vol3/`) and adding a link to the switcher.
+Each volume directory contains its own `index.html` (song grid) and individual song pages. The `song_prompts/` directory contains one page per song showing the exact Suno inputs (Style of Music, Lyrics, Exclude Styles). All pages reference `../styles.css` from subdirectories. A volume switcher nav (Home | Vol. 1 | Vol. 2) appears in the header of every page. Adding a new volume means creating a new directory (e.g. `vol3/`) and adding a link to the switcher.
  
 ## Technical Details
  
