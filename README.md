@@ -58,6 +58,7 @@ The project is organized into volumes of 12 songs each.
 | # | Song | Source Poem | Poet | Year |
 |---|---|---|---|---|
 | 1 | Friend of a Friend | La Belle Dame sans Merci | John Keats | 1819 |
+| 2 | My Father's Son | The Welsh Marches (A Shropshire Lad, XXVIII) | A.E. Housman | 1896 |
  
 ## How the Songs Are Made
  
@@ -99,11 +100,13 @@ The site is organized into volumes, each in its own subdirectory. Shared assets 
 │   └── there-was-never-anyone-there.html   Hardy's "Hap"
 ├── vol2/
 │   ├── index.html          Volume 2 song grid
-│   └── friend-of-a-friend.html       Keats's "La Belle Dame sans Merci"
+│   ├── friend-of-a-friend.html       Keats's "La Belle Dame sans Merci"
+│   └── my-fathers-son.html           Housman's "The Welsh Marches"
 └── song_prompts/
     ├── the-old-lie.html    Full Suno inputs for each song
     ├── ...                 (one page per song, all volumes)
-    └── friend-of-a-friend.html
+    ├── friend-of-a-friend.html
+    └── my-fathers-son.html
 ```
 
 Each volume directory contains its own `index.html` (song grid) and individual song pages. The `song_prompts/` directory contains one page per song showing the exact Suno inputs (Style of Music, Lyrics, Exclude Styles). All pages reference `../styles.css` from subdirectories. A volume switcher nav (Home | Vol. 1 | Vol. 2) appears in the header of every page. Adding a new volume means creating a new directory (e.g. `vol3/`) and adding a link to the switcher.
