@@ -38,27 +38,27 @@ The project is organized into volumes of 12 songs each.
 
 ### Volume 1
 
-| # | Song | Source Poem | Poet | Year |
-|---|---|---|---|---|
-| 1 | [The Old Lie](https://suno.com/song/b4a0406e-7286-4705-8a85-68adea0a3c38) | [Dulce et Decorum Est](https://www.poetryfoundation.org/poems/46560/dulce-et-decorum-est) | Wilfred Owen | 1920 |
-| 2 | [The Floor Gave Out](https://suno.com/song/dd8ae480-7e95-439a-9db1-5506b08934de) | [I Felt a Funeral, in my Brain](https://www.poetryfoundation.org/poems/45706/i-felt-a-funeral-in-my-brain-340) | Emily Dickinson | 1861 |
-| 3 | [Same As Everyone](https://suno.com/song/b445c667-d0a8-41ba-b3ce-425e6fe84930) | [A Litany in Time of Plague](https://poets.org/poem/litany-time-plague) | Thomas Nashe | 1592 |
-| 4 | [The Weight of Her Hand](https://suno.com/song/35e2db9b-3c25-4fd8-b274-4a8a41318b29) | [Break, Break, Break](https://www.poetryfoundation.org/poems/45318/break-break-break) | Alfred, Lord Tennyson | 1842 |
-| 5 | [And God Said Nothing](https://suno.com/song/6e91afde-aaa7-40e5-943e-deb867abcea5) | [Porphyria's Lover](https://www.poetryfoundation.org/poems/46313/porphyrias-lover) | Robert Browning | 1836 |
-| 6 | [Nothing Would Come Out](https://suno.com/song/2ebf8b76-f1b3-4eb4-b371-c703c01b147b) | [The Love Song of J. Alfred Prufrock](https://www.poetryfoundation.org/poetrymagazine/poems/44212/the-love-song-of-j-alfred-prufrock) | T.S. Eliot | 1915 |
-| 7 | [Three Seconds](https://suno.com/song/6b3ea0e8-2bce-4c4d-8e0a-08d4b2dc495b) | [The Rime of the Ancient Mariner](https://www.poetryfoundation.org/poems/43997/the-rime-of-the-ancient-mariner-text-of-1834) | Samuel Taylor Coleridge | 1798 |
-| 8 | [Marcus Has My Pen](https://suno.com/song/66ed681a-d7f3-4c55-bba0-63e89b92fc76) | [The Destruction of Sennacherib](https://www.poetryfoundation.org/poems/43827/the-destruction-of-sennacherib) | Lord Byron | 1815 |
-| 9 | [Jesús](https://suno.com/song/cb570a27-0354-439b-b6fa-290eae5b0705) | [Gunga Din](https://www.poetryfoundation.org/poems/46783/gunga-din) | Rudyard Kipling | 1890 |
-| 10 | [Followed Every Rule](https://suno.com/song/8b27075a-68dd-41b3-b07c-29315b2f5d99) | [The Mask of Anarchy](https://thepoetryhour.com/poems/the-mask-of-anarchy/) | Percy Bysshe Shelley | 1819 |
-| 11 | [None of It Was Real](https://suno.com/song/44d9bab7-5fe5-457a-9e13-eadaa631b111) | [The Waste Land](https://www.poetryfoundation.org/poems/47311/the-waste-land) | T.S. Eliot | 1922 |
-| 12 | [There Was Never Anyone There](https://suno.com/song/9b1bca27-e34f-4ff4-9e8d-68da80f5d666) | [Hap](https://www.poetryfoundation.org/poems/46311/hap) | Thomas Hardy | 1866 |
+| # | Song | Source | Poem / Lyrics |
+|---|---|---|---|
+| 1 | [The Old Lie](https://suno.com/song/b4a0406e-7286-4705-8a85-68adea0a3c38) | "[Dulce et Decorum Est](https://www.poetryfoundation.org/poems/46560/dulce-et-decorum-est)" by Wilfred Owen (1920) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/the-old-lie.html) |
+| 2 | [The Floor Gave Out](https://suno.com/song/dd8ae480-7e95-439a-9db1-5506b08934de) | "[I Felt a Funeral, in my Brain](https://www.poetryfoundation.org/poems/45706/i-felt-a-funeral-in-my-brain-340)" by Emily Dickinson (1861) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/the-floor-gave-out.html) |
+| 3 | [Same As Everyone](https://suno.com/song/b445c667-d0a8-41ba-b3ce-425e6fe84930) | "[A Litany in Time of Plague](https://poets.org/poem/litany-time-plague)" by Thomas Nashe (1592) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/same-as-everyone.html) |
+| 4 | [The Weight of Her Hand](https://suno.com/song/35e2db9b-3c25-4fd8-b274-4a8a41318b29) | "[Break, Break, Break](https://www.poetryfoundation.org/poems/45318/break-break-break)" by Alfred, Lord Tennyson (1842) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/the-weight-of-her-hand.html) |
+| 5 | [And God Said Nothing](https://suno.com/song/6e91afde-aaa7-40e5-943e-deb867abcea5) | "[Porphyria's Lover](https://www.poetryfoundation.org/poems/46313/porphyrias-lover)" by Robert Browning (1836) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/and-god-said-nothing.html) |
+| 6 | [Nothing Would Come Out](https://suno.com/song/2ebf8b76-f1b3-4eb4-b371-c703c01b147b) | "[The Love Song of J. Alfred Prufrock](https://www.poetryfoundation.org/poetrymagazine/poems/44212/the-love-song-of-j-alfred-prufrock)" by T.S. Eliot (1915) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/nothing-would-come-out.html) |
+| 7 | [Three Seconds](https://suno.com/song/6b3ea0e8-2bce-4c4d-8e0a-08d4b2dc495b) | "[The Rime of the Ancient Mariner](https://www.poetryfoundation.org/poems/43997/the-rime-of-the-ancient-mariner-text-of-1834)" by Samuel Taylor Coleridge (1798) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/three-seconds.html) |
+| 8 | [Marcus Has My Pen](https://suno.com/song/66ed681a-d7f3-4c55-bba0-63e89b92fc76) | "[The Destruction of Sennacherib](https://www.poetryfoundation.org/poems/43827/the-destruction-of-sennacherib)" by Lord Byron (1815) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/marcus-has-my-pen.html) |
+| 9 | [Jesús](https://suno.com/song/cb570a27-0354-439b-b6fa-290eae5b0705) | "[Gunga Din](https://www.poetryfoundation.org/poems/46783/gunga-din)" by Rudyard Kipling (1890) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/jesus.html) |
+| 10 | [Followed Every Rule](https://suno.com/song/8b27075a-68dd-41b3-b07c-29315b2f5d99) | "[The Mask of Anarchy](https://thepoetryhour.com/poems/the-mask-of-anarchy/)" by Percy Bysshe Shelley (1819) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/followed-every-rule.html) |
+| 11 | [None of It Was Real](https://suno.com/song/44d9bab7-5fe5-457a-9e13-eadaa631b111) | "[The Waste Land](https://www.poetryfoundation.org/poems/47311/the-waste-land)" by T.S. Eliot (1922) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/none-of-it-was-real.html) |
+| 12 | [There Was Never Anyone There](https://suno.com/song/9b1bca27-e34f-4ff4-9e8d-68da80f5d666) | "[Hap](https://www.poetryfoundation.org/poems/46311/hap)" by Thomas Hardy (1866) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol1/there-was-never-anyone-there.html) |
 
 ### Volume 2 (in progress)
 
-| # | Song | Source Poem | Poet | Year |
-|---|---|---|---|---|
-| 1 | [Friend of a Friend](https://suno.com/song/4b287a30-3779-4d46-8955-4b7851d64a78) | [La Belle Dame sans Merci](https://www.poetryfoundation.org/poems/44475/la-belle-dame-sans-merci-a-ballad) | John Keats | 1819 |
-| 2 | [My Father's Son](https://suno.com/song/32608e70-7110-4331-a287-a28533826aaa) | [The Welsh Marches (A Shropshire Lad, XXVIII)](https://allpoetry.com/The-Welsh-Marches) | A.E. Housman | 1896 |
+| # | Song | Source | Poem / Lyrics |
+|---|---|---|---|
+| 1 | [Friend of a Friend](https://suno.com/song/4b287a30-3779-4d46-8955-4b7851d64a78) | "[La Belle Dame sans Merci](https://www.poetryfoundation.org/poems/44475/la-belle-dame-sans-merci-a-ballad)" by John Keats (1819) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/friend-of-a-friend.html) |
+| 2 | [My Father's Son](https://suno.com/song/32608e70-7110-4331-a287-a28533826aaa) | "[The Welsh Marches (A Shropshire Lad, XXVIII)](https://allpoetry.com/The-Welsh-Marches)" by A.E. Housman (1896) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/my-fathers-son.html) |
  
 ## How the Songs Are Made
  
