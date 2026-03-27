@@ -59,6 +59,7 @@ The project is organized into volumes of 12 songs each.
 |---|---|---|---|
 | 1 | [Friend of a Friend](https://suno.com/song/4b287a30-3779-4d46-8955-4b7851d64a78) | "[La Belle Dame sans Merci](https://www.poetryfoundation.org/poems/44475/la-belle-dame-sans-merci-a-ballad)" by John Keats (1819) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/friend-of-a-friend.html) |
 | 2 | [My Father's Son](https://suno.com/song/32608e70-7110-4331-a287-a28533826aaa) | "[The Welsh Marches (A Shropshire Lad, XXVIII)](https://allpoetry.com/The-Welsh-Marches)" by A.E. Housman (1896) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/my-fathers-son.html) |
+| 3 | [You're Absolutely Right](https://suno.com/song/f131f6d1-6cd9-4313-9c6e-5b2b179d9a76) | "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)" by Edgar Allan Poe (1845) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/youre-absolutely-right.html) |
  
 ## How the Songs Are Made
  
@@ -101,12 +102,14 @@ The site is organized into volumes, each in its own subdirectory. Shared assets 
 ├── vol2/
 │   ├── index.html          Volume 2 song grid
 │   ├── friend-of-a-friend.html       Keats's "La Belle Dame sans Merci"
-│   └── my-fathers-son.html           Housman's "The Welsh Marches"
+│   ├── my-fathers-son.html           Housman's "The Welsh Marches"
+│   └── youre-absolutely-right.html   Poe's "The Raven"
 └── song_prompts/
     ├── the-old-lie.html    Full Suno inputs for each song
     ├── ...                 (one page per song, all volumes)
     ├── friend-of-a-friend.html
-    └── my-fathers-son.html
+    ├── my-fathers-son.html
+    └── youre-absolutely-right.html
 ```
 
 Each volume directory contains its own `index.html` (song grid) and individual song pages. The `song_prompts/` directory contains one page per song showing the exact Suno inputs (Style of Music, Lyrics, Exclude Styles). All pages reference `../styles.css` from subdirectories. A volume switcher nav (Home | Vol. 1 | Vol. 2) appears in the header of every page. Adding a new volume means creating a new directory (e.g. `vol3/`) and adding a link to the switcher.
