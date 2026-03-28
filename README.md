@@ -60,7 +60,7 @@ The project is organized into volumes of 12 songs each.
 | 1 | [Friend of a Friend](https://suno.com/song/4b287a30-3779-4d46-8955-4b7851d64a78) | "[La Belle Dame sans Merci](https://www.poetryfoundation.org/poems/44475/la-belle-dame-sans-merci-a-ballad)" by John Keats (1819) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/friend-of-a-friend.html) |
 | 2 | [My Father's Son](https://suno.com/song/32608e70-7110-4331-a287-a28533826aaa) | "[The Welsh Marches (A Shropshire Lad, XXVIII)](https://allpoetry.com/The-Welsh-Marches)" by A.E. Housman (1896) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/my-fathers-son.html) |
 | 3 | [You're Absolutely Right](https://suno.com/song/f131f6d1-6cd9-4313-9c6e-5b2b179d9a76) | "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)" by Edgar Allan Poe (1845) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/youre-absolutely-right.html) |
-| 4 | [Jenny](https://suno.com/song/98a664f6-ba3a-41ac-afc7-03f69cc89097) | "[Jenny](https://www.poetryfoundation.org/poems/45279/jenny)" by Dante Gabriel Rossetti (1870) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/jenny.html) |
+| 4 | [Jenny](https://suno.com/song/98a664f6-ba3a-41ac-afc7-03f69cc89097) | "[Jenny](https://www.poetryfoundation.org/poems/52332/jenny)" by Dante Gabriel Rossetti (1870) | [Side by Side](https://vegapdx.github.io/post-hardcore_poems/vol2/jenny.html) |
  
 ## How the Songs Are Made
  
