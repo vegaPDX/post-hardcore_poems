@@ -72,7 +72,7 @@ I am not a musician, a poet, or a programmer. These tools made it possible for m
  
 ## Listening and Remixing
  
-The songs are available on my [Suno profile](https://suno.com/@vegapdx). They are not on streaming platforms. I am not monetizing this project.
+The songs are available on my [Suno profile](https://suno.com/@vegapdx). They are not on streaming platforms and I am not monetizing this project.
  
 All source poems are in the public domain. The song lyrics are original works. In the spirit of the public domain artwork that inspired this project, all songs are open for edits, remixes, and covers. Take them, change them, make them yours. That's what I did with the poems.
  
